@@ -23,7 +23,7 @@ const Form = () => {
     toast.success(
       <div className="toastMessage">
         <h2>Message Sent!</h2>
-        <p> Thanks for completing the form. We'll be in touch soon</p>
+        <p> Thanks for completing the form. We will be in touch soon</p>
       </div>,
       {
         icon: (
