@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Shahzaib-ur-Rehman/contact-form)
-- Live Site URL: [Contact Form](https://contact-form-5zggbeeb4-shahzaiburrehmans-projects.vercel.app/)
+- Live Site URL: [Contact Form](https://contact-form-git-main-shahzaiburrehmans-projects.vercel.app/)
 
 ## My process
 
