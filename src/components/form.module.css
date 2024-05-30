@@ -1,0 +1,59 @@
+.form {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+.label::after {
+  margin-left: 0.2rem;
+  content: "*";
+}
+
+.input {
+  padding: 0.4rem 0.2rem;
+  border-radius: 0.4rem;
+  border: 2px solid var(--clr-neutral-400);
+}
+
+.inputError{
+  border: 2px solid var(--clr-secondary-400);
+}
+ 
+
+.input:focus {
+  border: unset;
+  outline: 2px solid var(--clr-neutral-900);
+}
+
+.radioWrapper {
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-radius: 0.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border: 2px solid var(--clr-neutral-400);
+}
+
+.radioWrapper input:checked {
+  accent-color: var(--clr-primary-400);
+}
+
+.radioWrapper:has(input:checked) {
+  background-color: var(--clr-primary-100);
+}
+.checkBoxWrappper {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+.checkBoxWrappper input {
+  width: 1rem;
+  aspect-ratio: 1;
+}
+.checkBoxWrappper input:checked {
+  accent-color: var(--clr-primary-400);
+}
+
+
+.errorMessage{
+  color: var(--clr-secondary-400);
+}
